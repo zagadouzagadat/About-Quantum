@@ -1,0 +1,193 @@
+body {
+  background-color:green;
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  /*background:linear-gradient(rgba(50, 45, 47, 0.8),rgba(50, 45, 47, 0.8)),url(img3.jpg);*/
+  background-color: #f59b0a;
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  width: 99%;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  /*align-items: center;*/
+}
+.header img{
+height: 30vh;
+color-profile: auto;
+align-items: center;
+}
+.text{
+ text-align: center;
+ color: #039cad;
+ font-size: 20px;
+}
+/*.img{
+  height: 35vh;
+  width: 55px;
+  padding:20px;
+  display: flex;
+  justify-content:left;
+}
+.img p {
+  margin-left:17px; 
+  font-size: 14px;
+  float: left;
+  }
+  .img h2{
+     text-align: center;
+  } 
+  /*padding: 0px 10px;
+  padding: 20px;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+.side1{
+  height: 320px;
+  width: 100vw;
+   margin: 10px;
+  background-color:white;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+
+justify-content: space-around;
+}
+  .img{
+ width: 500px;
+ height: 300px;
+}
+
+
+.side1 p {
+    width: 50vw;
+    font-size: 15px;
+  }
+  .side1 h5{
+    color: blue;
+  } 
+  #testimonials{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+#testimonials .bar{
+  padding: 10px;
+  background:rgba(245, 40, 145, 0.08);
+  max-width: 500px;
+}
+
+#testimonials .bar img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 4px solid rgba(245, 40, 145, 0.45);
+}
+.description{
+  border: 2px solid transparent;
+  background-color:transparent;
+  width: 25vw;
+    font-size: 15px;
+}
+
+#teachers  h2{
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+}
+#teachers{
+  padding: 15px;
+  background-color:gray;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#teachers .container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+#teachers .gallery{
+  margin: 15px;
+  width: 350px;
+}
+#teachers .gallery .desc h4{
+  text-transform:uppercase;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+#teachers .gallery .desc h6{
+  color: white;
+    margin: 10px;
+    font-size: 12px;
+}
+#teachers .gallery .desc p{
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 15px;
+}
+#teachers .gallery .desc{
+padding: 10px;
+}
+
+#teachers img{
+  width: 350px;
+  height: 200px;
+}
+
+#footer{
+background:linear-gradient(rgba(50, 45, 47, 0.8),rgba(50, 45, 47, 0.8)),url(img2.png);
+background-color: black;
+background-position: center;
+background-size: fixed;
+background-repeat: no-repeat;
+height: 50vh;
+width: 100%;
+padding: 20px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.about a{
+  display: block;
+  color: white;
+  font-size: 15px;
+}
+.about h4{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 20px;
+}
+#footer .about{
+  width: 200px;
+  height: 200px;
+}
+.about input{
+  padding: 10px 30px;
+  width: 100%;
+  margin: 6px 0;
+  border: none;
+}
+input[type="submit"]{
+  background: blue;
+  color: white;
+  border-radius: 25px;
+}
+.about p{
+  font-size: 15px;
+  color: white;
+}
